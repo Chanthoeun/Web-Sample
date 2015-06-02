@@ -1,0 +1,5 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2015-06-02 14:09:53 --> Query error: Field 'created_at' doesn't have a default value - Invalid query: INSERT INTO `groups` (`description`, `id`, `name`) VALUES ('Administrator','1','admin'), ('General User','2','members')
+ERROR - 2015-06-02 14:09:53 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0, 1, `id`, `ip_address`, `timestamp`, `data`) VALUES (('Administrator','1','adm' at line 1 - Invalid query: INSERT INTO `ci_sessions` (0, 1, `id`, `ip_address`, `timestamp`, `data`) VALUES (('Administrator','1','admin'), ('General User','2','members'), 'a8e0091c7ccd7a45e94774636ef5ebd9041bf2dc', '127.0.0.1', 1433228993, '__ci_last_regenerate|i:1433228993;')
+ERROR - 2015-06-02 14:12:18 --> Severity: Error --> Call to undefined function generate_template() C:\xampp\htdocs\f-club.ga\application\modules\auth\controllers\auth.php 188
